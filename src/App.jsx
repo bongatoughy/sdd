@@ -1,5 +1,5 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+import sdd from "./assets/bourbon-ad-2.png";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
@@ -20,7 +20,7 @@ function App() {
         </h2>
         <h1>HOLIDAY JAM</h1>
         <div>
-          <img src="./src/assets/bourbon-ad-2.png" />
+          <img src={sdd} />
         </div>
         <h2 style={{ fontWeight: "lighter" }}>Saturday, December 21st 2024</h2>
         <h3>@ 7:00PM</h3>
